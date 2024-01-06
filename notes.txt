@@ -1,0 +1,312 @@
+class notes 
+===========
+DATE - ( 30-05-2023)
+---------------------------------------------------------------------------------------------------------------------------------
+commands to check java versions 
+ 
+ - java -version
+ - javac -version
+
+ Rules to create a basic java program
+
+  1. In java all the codes is written inside a class.
+
+
+  2. The class name should be in upper camel case .
+
+
+  3. First define the scope of class then write the code inside {  } .
+
+
+  4. The file name must be same as the class name that contains the main method.
+
+
+  5. The extension of the file should be .java .
+
+  6. The execution of the code starts from main().
+
+  7. The main must have the signature: .
+
+    public static void main (String []args )
+
+    -- What variations can work?
+
+    - public static void main (String [] args )
+    - static public void main (String [] args)
+    - public static void mainn (String... args) 
+    - public static void main (String ... hii)
+
+  8. The name of variables should be in lower lower camel case .
+
+  9. The names must be meaningful.
+
+
+  10. Every java program runs in 2 steps :
+
+     step 1 : Compile the programme 
+     Command l: java<name of the file>.java 
+
+     Step 2 : Run the executable 
+     command : java <name of the executable >
+
+  11. To run a program , it must have a main method 
+      The programe without main() will compile but won't run.
+
+   12. Java is class based langauge . There are 2  types of clases :
+       1. pre-defined classes ( EXA: String,Scanner,System)
+
+       2. User defined classes 
+
+   13. Variable Declaration : Every variable must be declared before using it .
+
+        there are two types of variables 
+        1.Pre-defined Variables (EXA: our and in)
+
+        2.User defined vaiables (EXA: args , scanner )
+
+        USAGE
+        --------
+        System.in means getting input from keyboard on console
+        System.out means printing output on console
+
+        Scanner creates a connection between our java programme and console.
+
+        String[] args is used to pass data to the main method as command line argument.
+
+       Data types
+       ------------
+       We have to specify the type of data that a variable is going to hold well in advance.
+       - This is known as static typing
+       - Java is a statically  and strongly typed langauge
+
+    Static langauges ex: Java, C,C++
+    Dynamic langauge ex: Javascript, Python
+     
+There are two types of data types:
+ 1. Primitive data types
+   Integer data types (5) Int,byte ,short,long,char 
+   - Used to hold integer values of different range 
+   - variable declaration:
+
+     byte b = 1
+     short s = 2;
+     int i  = 4;
+     long l = 10;
+     char c = '@';
+
+     - Decimal data types (2) : float , double
+     - variable decleration 
+     
+     float f = 1.2f;
+     float f = 1.2F;
+     double d = 1.2;
+      
+ - We cannot assing data of bigger type integer variable of smaller data type 
+
+ - Double is bigger than float and all decimal numbers are automatically considered double 
+
+ -Hence we have to explicitly tell java that a decimal number is not double by appending f/F to it     
+
+Boolean data types 
+-------------------
+
+ boolean ispassed = true;
+ boolean isabsent = false;
+
+2. Refrence data types 
+   1. Class
+   2. Interface 
+   3. Enum 
+   4. Array
+
+Class
+-----------
+ Scanner scanner = new Scanner(System.in)
+ System.out.println
+
+ EXA: scanner,out ,in 
+
+Array
+--------------
+ String [] args
+ args is array refrence type 
+
+~ Methods
+--------
+ Syntax:
+ <access-modifier><non-access modifier> <return-type><name-of-method>(<parameters-list>){
+
+    //processing
+    //stmt1..
+    //stmt2..
+    //stmtn..
+
+    // return statement ;
+
+ }
+ Exa: access-modifier => public 
+ Exa:  non-access modifier=> static
+ Exa:  return type => void 
+ Exa : name of method => main
+ Exa : parameters-liat => String [] args 
+
+ -Inorder to access main from any folder .it is decalred public
+ -Inorder to access main without creating a reference , it is declared static  
+
+ EXA : main() , print() , println() , nextInt() , nextFloat() , Scanner()
+
+~ \n is used for line break 
+~ println() is used to give a line break after printing the statements 
+
+Ques - WAP to to calculate body mass index(BMI)
+        
+DATE (31-05-2023)
+----------------------------------------------------------------------------
+Identifiers 
+------------
+ The names that we give to classes ,interfaces ,objects, variables , methods , enums are called identifiers 
+ 
+  Rules:
+   - We can use a-z,A-Z,0-9,_,$ as an identifiers 
+   - the identifier cannot start with a number 
+   - we can create an identifer of any length
+   - Keywords cannot be used as identifiers 
+   - Space is not allowed in a name 
+   
+  Exa : dellLaptop_001Screen , _productId , $price .
+
+Keyword 
+--------
+ These are pre-defined , reserved words that have special meanings to the compiler .
+ There are 65+ keywords in java .
+  Exa : class, public, static, void, int, float, etc .
+
+----------------------------------------------------------------------------------------------
+~> JVM is platform independent , we need different JVM instalaation for different OS .
+
+=> JDK , JRE  , JVM .
+
+ >>>> JDK 
+   - JDK stands for java devlopment kit .
+   - it is software devlopment enviroment used to devlop  java application .
+   > it inludes :
+     1. Java Runtime Enviroment (JRE).
+     2. Interpreter .
+     3. Compiler.
+     4. Archiever.
+     5. Documantion generator (Javadoc) and
+     6. Other tools needen in java devlopment
+
+>>>> JRE 
+  -JRE stands for java runtime enviroment . Sometimes it is also reffered as Java RTE .
+  - The java runtime enviroment provides the minimum requirements for executing a java application .
+  - It consists of JVM , core classes, and supporting files .
+
+>>>> JVM 
+   - JVM stands for java virtual machine .
+   - when we execute a java program , a runtime instance of JVM executes the java byte code . 
+
+~ SUMMARY
+   > JDK = JRE + Devlopment tools 
+   > JRE = JVM + Runtime Library  
+
+            
+DATE (01-06-2023)
+----------------------------------------------------------------------------------------------------------------
+Operators 
+===========
+   6 + 7
+    Operand : The values on which operation is done are operands  , 6 and 7 are operands .
+    Operator: The operation on operands is done bt operator . Here + is the operator.
+
+ Types of Operators 
+ -------------------
+    - Unary Operators
+    - Binary Operators
+    - Ternary Operators
+ Unary Operators
+ ----------------
+ there are 5 unary Operators:
+   1.++(Increment Operators)
+   2.--(Decreament Operators)
+   3. +()
+   4. -()
+   5. !()
+ Binary Operators
+ -----------------
+ there are 4 types of binary operators 
+ 1. Arithmetic operators(+ , - , * , / , %)
+ -they works on numbers and retrurn a numaber 
+
+2.Relational Operators(< , > , <= , >= , == , !=)
+- they works on numbers and return a boolean value 
+
+3. Logical Operators( $,| , !)
+- they works on boolean and return and boolean ......
+
+Short circuit logical Operators : && and || 
+
+&& - It will not evaluate the expression on RHS  if LHS is false and the final answer will be false .
+     - true & true => true 
+    - true & false => false 
+    -    false & true => false
+    - false & false => false
+
+
+|| - It will not evaluate the expression on RHS if LHS is true and the final answer will be true .
+
+     - true | true => true 
+    - true | false => true
+    - false | true => true 
+    - false | false => false
+
+Assingment Operators
+----------------------
+Simple Assingment Operators
+----------------------------
+SAO assings the value of expression on RHS into variable on LHS 
+
+int total = n1 + n2;
+n1 + n2 ; 9 (Wrong)
+
+Compound Assingment operators
+------------------------------
+      1. x= x + 10 => x+= =>  Compound Addition Operator
+      2. x = x - 10 => x -=10 Compound subtract Operator
+      3. x= x * 10 => x*= =>  Compound Multiplication  Operator
+      4. x = x / 10 => x /=10 Compound  Quotient Operator
+      5.  x = x / 10 => x /=10 Compound  Modulus t Operator  
+
+
+Control statements
+===================
+
+There are 2 types of control statements 
+
+1. Decision control statements 
+2. Repetition statements 
+
+Decision Control  statements
+-----------------------------
+There are 2 Decision Control statements
+    1. if - else
+    2. switch case default 
+
+Repetition statements
+---------------------
+    1.while 
+    2. do-while 
+    3. for 
+    4. for each 
+    5. Enhanced for
+
+    ARRAYs
+    --------------------------------------------------------------------------------------------------------------------
+    
+     
+     
+
+
+
+
+    

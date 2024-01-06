@@ -1,0 +1,115 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "factorial",
+      "request": "launch",
+      "mainClass": "factorial",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "bmi",
+      "request": "launch",
+      "mainClass": "bmi",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "ifelse2",
+      "request": "launch",
+      "mainClass": "ifelse2",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "table",
+      "request": "launch",
+      "mainClass": "table",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "simpleIntrest",
+      "request": "launch",
+      "mainClass": "simpleIntrest",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "prime",
+      "request": "launch",
+      "mainClass": "prime",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "ifElse",
+      "request": "launch",
+      "mainClass": "ifElse",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "Bonus",
+      "request": "launch",
+      "mainClass": "Bonus",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "problem",
+      "request": "launch",
+      "mainClass": "problem",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "increment",
+      "request": "launch",
+      "mainClass": "increment",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "EMI",
+      "request": "launch",
+      "mainClass": "EMI",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "SimpleIntrest",
+      "request": "launch",
+      "mainClass": "SimpleIntrest",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Atharv/java space",
+      "program": "c:/Users/Atharv/java space/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
