@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "diamond2",
+      "request": "launch",
+      "mainClass": "diamond2",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "diamond",
+      "request": "launch",
+      "mainClass": "diamond",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "starhalowsquare",
+      "request": "launch",
+      "mainClass": "starhalowsquare",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
       "name": "factorial",
       "request": "launch",
       "mainClass": "factorial",
