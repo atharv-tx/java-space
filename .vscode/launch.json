@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
       "name": "diamond2",
       "request": "launch",
       "mainClass": "diamond2",

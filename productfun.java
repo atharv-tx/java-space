@@ -24,5 +24,8 @@ public class productfun {
 
          prod = multiply(10, 20);
         System.out.println("product is :"+prod);
+
+         prod = multiply(10,30);
+        System.out.println("product is :"+prod);
     }
 }
