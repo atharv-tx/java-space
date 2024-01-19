@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BubbleSort1",
+      "request": "launch",
+      "mainClass": "BubbleSort1",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "sumofsubarray",
+      "request": "launch",
+      "mainClass": "sumofsubarray",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
+      "name": "Subarray",
+      "request": "launch",
+      "mainClass": "Subarray",
+      "projectName": "java space_ba835b08"
+    },
+    {
+      "type": "java",
       "name": "Solution",
       "request": "launch",
       "mainClass": "Solution",
