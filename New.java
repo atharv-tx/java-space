@@ -10,7 +10,7 @@ import java.util.Scanner;
 
         for (i = 1; i <= 10; i++) {
             t = n * i;
-            System.out.println("\n " + t);
+            System.out.print(t + " ");
 
         }
 
