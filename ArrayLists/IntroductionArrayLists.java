@@ -12,6 +12,25 @@ public class IntroductionArrayLists {
         list.add(3);
         list.add(4);
 
+        System.out.println(list.size());
+
         System.out.println(list);
-    }
-}
+
+
+        // // GET OPERATION
+        // int element = list.get(2);
+        // System.out.println(element);
+
+        // // delete
+        // list.remove(2);
+        // System.out.println(list);
+
+        // set operation
+    //     list.set(2, 10);
+    //     System.out.println(list);
+
+    //     // contains
+    //     System.out.println(list.contains(1));
+    //     System.out.println(list.contains(11));
+    // }
+}}

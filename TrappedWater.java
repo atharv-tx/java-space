@@ -31,7 +31,7 @@ public class TrappedWater {
         return trappedWater;
     }
     public static void main(String[]args){
-        int height[] = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        int height[] = {7, 0, 4, 2, 5, 0, 6, 4, 0, 6};
         System.out.println(trappedWater(height));
     }
     
